@@ -1,0 +1,17 @@
+<<driver program>>
+start
+        declare num,k,x:integer;
+        declare num,b,c:array[1..10] of integer;
+	declare num2,k2222:real;
+	declare num3,k3:boolean;
+	k:=6;
+	k2222:=5;
+	k3:=x<7;
+        num:=5*(x+k2222+2);
+        for(k in 1..10)
+        start
+                **A[k]:=(num - k)*(num-k);
+                print(A[k]);
+        end
+	k:=156;
+end
